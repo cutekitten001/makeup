@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <title>Makeup</title>
+</head>
+
+<body>
+
+  <!-- filter -->
+  <div class="container">
+    <!-- <h3 class="title"> Produtos</h3> -->
+    <ul class="ul">
+      <li class="current">Todos</li>
+      <li>Skin</li>
+      <li>Pinceis</li>
+      <li>Acessórios</li>
+      <li>Maquiagem</li>
+      <li>Kits</li>
+      <li>Brindes</li>
+    </ul>
+
+    <!-- <div class="grid">
+       
+    </div> -->
+
+    <div class="products-container items">
+      <!-- serum café -->
+      <div class="product  skin" data-filter="skin" data-name="p-1">
+        <img src="assets/img/produtos/serum/serum_cafe-removebg-preview.png" alt="">
+        <h3>Serum Café</h3>
+        <div class="price">R$10,00</div>
+      </div>
+
+      <!-- serum frutas -->
+      <div class="product  skin" data-filter="skin" data-name="p-2">
+        <img src="assets/img/produtos/serum/serum_frutas-removebg-preview.png" alt="">
+        <h3>Serum Frutas</h3>
+        <div class="price">R$10,00</div>
+      </div>
+
+      <!-- sobrancelha #4 -->
+      <div class="product  skin" data-filter="maquiagem" data-name="p-3">
+        <img src="assets/img/produtos/sobrancelha/sobrancelha_preto.jpeg" alt="">
+        <h3>Sobrancelha Preto - Cor #4</h3>
+        <div class="price">R$10,00</div>
+      </div>
+
+      <!-- sobrancelha #1 -->
+      <div class="product  skin" data-filter="maquiagem" data-name="p-4">
+        <img src="assets/img/produtos/sobrancelha/sobrancelha_marrom_medio.jpeg" alt="">
+        <h3>Sobrancelha Marrom médio - Cor #1</h3>
+        <div class="price">R$10,00</div>
+      </div>
+
+      <!-- sobrancelha #2 -->
+      <div class="product  skin" data-filter="maquiagem" data-name="p-5">
+        <img src="assets/img/produtos/sobrancelha/sobrancelha_castanho_medio.jpeg" alt="">
+        <h3>Sobrancelha Castanho médio - Cor #2</h3>
+        <div class="price">R$10,00</div>
+      </div>
+
+      <!-- acessório cabelo preto-->
+      <div class="product  acessorios" data-filter="acessórios" data-name="p-6">
+        <img src="assets/img/produtos/acessorios_cabelo/acessorios_cabelo.jpeg" alt="">
+        <h3>Acessório Cabelo Preto</h3>
+        <div class="price">R$5,99</div>
+      </div>
+
+      <!-- acessório cabelo rosa-->
+      <div class="product  acessorios" data-filter="acessórios" data-name="p-7">
+        <img src="assets/img/produtos/acessorios_cabelo/acessorio_rosa.jpeg" alt="">
+        <h3>Acessório Cabelo Rosa</h3>
+        <div class="price">R$5,99</div>
+      </div>
+
+      <!-- base 1 -->
+      <div class="product  acessorios" data-filter="maquiagem" data-name="p-8">
+        <img src="assets/img/produtos/base/base1.jpeg" alt="">
+        <h3>Base Cream - Cor #1</h3>
+        <div class="price">R$10,00</div>
+      </div>
+
+      <!-- base 2 -->
+      <div class="product  acessorios" data-filter="maquiagem" data-name="p-9">
+        <img src="assets/img/produtos/base/base2.jpeg" alt="">
+        <h3>Base Cream - Cor #2</h3>
+        <div class="price">R$10,00</div>
+      </div>
+
+      <!-- base 3 -->
+      <div class="product  acessorios" data-filter="maquiagem" data-name="p-10">
+        <img src="assets/img/produtos/base/base3.jpeg" alt="">
+        <h3>Base Cream - Cor #3</h3>
+        <div class="price">R$10,00</div>
+      </div>
+
+      <!-- base 4 -->
+      <div class="product  acessorios" data-filter="maquiagem" data-name="p-11">
+        <img src="assets/img/produtos/base/base4.jpeg" alt="">
+        <h3>Base Cream - Cor #4</h3>
+        <div class="price">R$10,00</div>
+      </div>
+
+      <!-- base 5 -->
+      <div class="product  acessorios" data-filter="maquiagem" data-name="p-12">
+        <img src="assets/img/produtos/base/base5.jpeg" alt="">
+        <h3>Base Julystar - Cor #1</h3>
+        <div class="price">R$7,99</div>
+      </div>
+
+      <!-- base 6 -->
+      <div class="product  acessorios" data-filter="maquiagem" data-name="p-13">
+        <img src="assets/img/produtos/base/base6.jpeg" alt="">
+        <h3>Base Julystar - Cor #2</h3>
+        <div class="price">R$7,99</div>
+      </div>
+
+      <!-- base 7 -->
+      <div class="product  acessorios" data-filter="maquiagem" data-name="p-14">
+        <img src="assets/img/produtos/base/base7.jpeg" alt="">
+        <h3>Base Julystar - Cor #3</h3>
+        <div class="price">R$7,99</div>
+      </div>
+
+      <!-- base 8 -->
+      <div class="product  acessorios" data-filter="maquiagem" data-name="p-15">
+        <img src="assets/img/produtos/base/base8.jpeg" alt="">
+        <h3>Base Julystar - Cor #4</h3>
+        <div class="price">R$7,99</div>
+      </div>
+
+      <!-- batom + lapis #1 -->
+      <div class="product  batom" data-filter="maquiagem" data-name="p-16">
+        <img src="assets/img/produtos/batom_lapis/b1.jpeg" alt="">
+        <h3>Kit Batom + Lapis - Cor #1</h3>
+        <div class=" price">R$10,00</div>
+      </div>
+
+      <!-- batom + lapis #2 -->
+      <div class="product  batom" data-filter="maquiagem" data-name="p-17">
+        <img src="assets/img/produtos/batom_lapis/b2.jpeg" alt="">
+        <h3>Kit Batom + Lapis - Cor #2</h3>
+        <div class=" price">R$10,00</div>
+      </div>
+
+      <!-- esfoliante melão -->
+      <div class="product  skin" data-filter="skin" data-name="p-18">
+        <img src="assets/img/produtos/esfoliante/esfoliante_melao.jpeg" alt="">
+        <h3>Esfoliante Melão</h3>
+        <div class=" price">R$6,99</div>
+      </div>
+      <!-- esfoliante abacate -->
+      <div class="product  skin" data-filter="skin" data-name="p-19">
+        <img src="assets/img/produtos/esfoliante/esfoliante_abacate.jpeg" alt="">
+        <h3>Esfoliante Abacate</h3>
+        <div class=" price">R$6,99</div>
+      </div>
+
+      <!-- hidratante nivea -->
+      <div class="product  skin" data-filter="skin" data-name="p-20">
+        <img src="assets/img/produtos/hidratante/hidratante_nivea.jpeg" alt="">
+        <h3>Hidratante Nivea</h3>
+        <div class="price">R$9,99</div>
+      </div>
+
+      <!-- pincel #1 -->
+      <div class="product pinceis" data-filter="pinceis" data-name="p-21">
+        <img src="assets/img/produtos/pincel/pincel1.jpeg" alt="">
+        <h3>Kit Pincel #1</h3>
+        <div class="price">R$9,99</div>
+      </div>
+
+      <!-- pincel #2 -->
+      <div class="product pinceis" data-filter="pinceis" data-name="p-22">
+        <img src="assets/img/produtos/pincel/pincel2.jpeg" alt="">
+        <h3>Kit Pincel #2</h3>
+        <div class="price">R$9,99</div>
+      </div>
+
+      <!-- gel tint -->
+      <div class="product maquiagem" data-filter="maquiagem" data-name="p-23">
+        <img src="assets/img/produtos/gel_tint/gel_tint.jpeg" alt="">
+        <h3>Gel Tint</h3>
+        <div class="price">R$9,99</div>
+      </div>
+
+      <!-- kil esponja para maquiagem -->
+      <div class="product maquiagem" data-filter="maquiagem" data-name="p-24">
+        <img src="assets/img/produtos/kit_esponja/kit_esponja.jpeg" alt="">
+        <h3>Kit esponja para maquiagem</h3>
+        <div class="price">R$9,99</div>
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+  <!-- ### MODAL ### -->
+  <div class="products-preview">
+    <!-- serum cafe -->
+    <div class="preview" data-target="p-1">
+      <i class="fas fa-times"></i>
+
+      <img src="assets/img/produtos/serum/serum_cafe-removebg-preview.png" alt="">
+      <h3>serum café</h3>
+      <p>
+        <strong>Serventia:</strong> tratar problemas específicos da pele, como rugas, manchas e hidratação profunda.<br><br>
+
+        <strong>Curiosidade:</strong> Sérum não é óleo facial, ele é um liquido bem leve de base aquosa.
+      </p>
+      <div class="price">R$10,00</div>
+    </div>
+
+    <!-- serum frutas -->
+    <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+
+      <img src="assets/img/produtos/serum/serum_frutas-removebg-preview.png" alt="">
+      <h3>serum frutas</h3>
+      <p>
+        <strong>Serventia:</strong> tratar problemas específicos da pele, como rugas, manchas e hidratação profunda.<br><br>
+
+        <strong>Curiosidade:</strong> Sérum não é óleo facial, ele é um liquido bem leve de base aquosa.
+      </p>
+      <div class="price">R$10,00</div>
+    </div>
+
+    <!-- sobrancelha preto / #4 -->
+    <div class="preview" data-target="p-3">
+      <i class="fas fa-times"></i>
+      <img src="assets/img/produtos/sobrancelha/sobrancelha_preto.jpeg" alt="">
+      <h3>Sobrancelha Preto - Cor #4</h3>
+      <p>
+        <strong>Serventia:</strong> Maquiar Sobrancelha com ajuda de um pincel para melhor definição.<br><br>
+        <strong>Curiosidade:</strong> O pincel possui uma boa firmeza nas cerdas, produto com ótima pigmentação.
+      </p>
+      <div class="price">R$10,00</div>
+    </div>
+
+    <!-- sobrancelha preto / #1 -->
+    <div class="preview" data-target="p-4">
+      <i class="fas fa-times"></i>
+      <img src="assets/img/produtos/sobrancelha/sobrancelha_marrom_medio.jpeg" alt="">
+      <h3>Sobrancelha Marrom médio - Cor #1</h3>
+      <p>
+        <strong>Serventia:</strong> Maquiar Sobrancelha com ajuda de um pincel para melhor definição.<br><br>
+        <strong>Curiosidade:</strong> O pincel possui uma boa firmeza nas cerdas, produto com ótima pigmentação.
+      </p>
+      <div class="price">R$10,00</div>
+    </div>
+
+    <!-- sobrancelha preto / #2 -->
+    <div class="preview" data-target="p-5">
+      <i class="fas fa-times"></i>
+      <img src="assets/img/produtos/sobrancelha/sobrancelha_castanho_medio.jpeg" alt="">
+      <h3>Sobrancelha Castanho medio - Cor #2</h3>
+      <p>
+        <strong>Serventia:</strong> Maquiar Sobrancelha com ajuda de um pincel para melhor definição.<br><br>
+        <strong>Curiosidade:</strong> O pincel possui uma boa firmeza nas cerdas, produto com ótima pigmentação.
+      </p>
+      <div class="price">R$10,00</div>
+    </div>
+
+    <!-- acessórios cabelo -->
+    <div class="preview" data-target="p-6">
+      <i class="fas fa-times"></i>
+
+      <img src="assets/img/produtos/acessorios_cabelo/acessorios_cabelo.jpeg" alt="">
+      <h3>Acessório Cabelo Preto</h3>
+      <p>
+        <strong>Serventia:</strong> Complementar seu penteado 💇‍♀️<br><br>
+        <strong>Curiosidade:</strong> Feito de acetato, leve e de fácil uso.
+      </p>
+      <div class="price">R$5,99</div>
+    </div>
+
+    <!-- acessórios cabelo rosa-->
+    <div class="preview" data-target="p-7">
+      <i class="fas fa-times"></i>
+
+      <img src="assets/img/produtos/acessorios_cabelo/acessorio_rosa.jpeg" alt="">
+      <h3>Acessório Cabelo Rosa</h3>
+      <p>
+        <strong>Serventia:</strong> Complementar seu penteado 💇‍♀️<br><br>
+        <strong>Curiosidade:</strong> Feito de acetato, leve e de fácil uso.
+      </p>
+      <div class="price">R$5,99</div>
+    </div>
+
+    <!-- base 1 -->
+    <div class="preview" data-target="p-8">
+      <i class="fas fa-times"></i>
+
+      <img src="assets/img/produtos/base/base1.jpeg" alt="">
+      <h3>Base Cream - Cor #1</h3>
+      <p>
+        <strong>Serventia:</strong> Cobrir imperfeições e dar acabamento a maquiagem.<br><br>
+        <strong>Curiosidade:</strong> Bom tempo de cobertura com cobertura natural, o produto possui fácil aplicação sem a necessidade de adição de muito produto.
+      </p>
+      <div class="price">R$10,00</div>
+    </div>
+
+    <!-- base 2 -->
+    <div class="preview" data-target="p-9">
+      <i class="fas fa-times"></i>
+
+      <img src="assets/img/produtos/base/base2.jpeg" alt="">
+      <h3>Base Cream - Cor #2</h3>
+      <p>
+        <strong>Serventia:</strong> Cobrir imperfeições e dar acabamento a maquiagem.<br><br>
+        <strong>Curiosidade:</strong> Bom tempo de cobertura com cobertura natural, o produto possui fácil aplicação sem a necessidade de adição de muito produto.
+      </p>
+      <div class="price">R$10,00</div>
+    </div>
+
+    <!-- base 3 -->
+    <div class="preview" data-target="p-10">
+      <i class="fas fa-times"></i>
+
+      <img src="assets/img/produtos/base/base3.jpeg" alt="">
+      <h3>Base Cream - Cor #3</h3>
+      <p>
+        <strong>Serventia:</strong> Cobrir imperfeições e dar acabamento a maquiagem.<br><br>
+        <strong>Curiosidade:</strong> Bom tempo de cobertura com cobertura natural, o produto possui fácil aplicação sem a necessidade de adição de muito produto.
+      </p>
+      <div class="price">R$10,00</div>
+    </div>
+
+    <!-- base 4 -->
+    <div class="preview" data-target="p-11">
+      <i class="fas fa-times"></i>
+
+      <img src="assets/img/produtos/base/base4.jpeg" alt="">
+      <h3>Base Cream - Cor #4</h3>
+      <p>
+        <strong>Serventia:</strong> Cobrir imperfeições e dar acabamento a maquiagem.<br><br>
+        <strong>Curiosidade:</strong> Bom tempo de cobertura com cobertura natural, o produto possui fácil aplicação sem a necessidade de adição de muito produto.
+      </p>
+      <div class="price">R$10,00</div>
+    </div>
+
+    <!-- base 5 -->
+    <div class="preview" data-target="p-12">
+      <i class="fas fa-times"></i>
+
+      <img src="assets/img/produtos/base/base5.jpeg" alt="">
+      <h3>Base Julystar - Cor #1</h3>
+      <p>
+        <strong>Serventia:</strong> Base pequeno porte para levar na bolsa, possui acabamento natural.<br><br>
+        <strong>Curiosidade:</strong> O produto possui fácil aplicação, composição perfeita para misturar com outra base.
+      </p>
+      <div class="price">R$7,99</div>
+    </div>
+
+    <!-- base 6 -->
+    <div class="preview" data-target="p-13">
+      <i class="fas fa-times"></i>
+
+      <img src="assets/img/produtos/base/base6.jpeg" alt="">
+      <h3>Base Julystar - Cor #2</h3>
+      <p>
+        <strong>Serventia:</strong> Base pequeno porte para levar na bolsa, possui acabamento natural.<br><br>
+        <strong>Curiosidade:</strong> O produto possui fácil aplicação, composição perfeita para misturar com outra base.
+      </p>
+      <div class="price">R$7,99</div>
+    </div>
+
+    <!-- base 7 -->
+    <div class="preview" data-target="p-14">
+      <i class="fas fa-times"></i>
+
+      <img src="assets/img/produtos/base/base7.jpeg" alt="">
+      <h3>Base Julystar - Cor #3</h3>
+      <p>
+        <strong>Serventia:</strong> Base pequeno porte para levar na bolsa, possui acabamento natural.<br><br>
+        <strong>Curiosidade:</strong> O produto possui fácil aplicação, composição perfeita para misturar com outra base.
+      </p>
+      <div class="price">R$7,99</div>
+    </div>
+
+    <!-- base 8 -->
+    <div class="preview" data-target="p-15">
+      <i class="fas fa-times"></i>
+
+      <img src="assets/img/produtos/base/base8.jpeg" alt="">
+      <h3>Base Julystar - Cor #4</h3>
+      <p>
+        <strong>Serventia:</strong> Base pequeno porte para levar na bolsa, possui acabamento natural.<br><br>
+        <strong>Curiosidade:</strong> O produto possui fácil aplicação, composição perfeita para misturar com outra base.
+      </p>
+      <div class="price">R$7,99</div>
+    </div>
+
+    <!-- kit batom e lapis 1-->
+    <div class="preview" data-target="p-16">
+      <i class="fas fa-times"></i>
+
+      <img src="assets/img/produtos/batom_lapis/b1.jpeg" alt="">
+      <h3>Kit Batom + Lapis - Cor #1</h3>
+      <p>
+        <strong>Serventia:</strong> O batom além de ser matte vem junto a um lápis de boca para ajudar a um melhor desenho do batom no lábio. 💋<br><br>
+
+        <strong>Curiosidade:</strong> Usar um lapis para contornar a boca deixa seu lábio com aparência mais carnuda.
+      </p>
+      <div class="price">R$10,00</div>
+    </div>
+
+    <!-- kit batom e lapis 2-->
+    <div class="preview" data-target="p-17">
+      <i class="fas fa-times"></i>
+
+      <img src="assets/img/produtos/batom_lapis/b2.jpeg" alt="">
+      <h3>Kit Batom + Lapis - Cor #2</h3>
+      <p>
+        <strong>Serventia:</strong> O batom além de ser matte vem junto a um lápis de boca para ajudar a um melhor desenho do batom no lábio. 💋<br><br>
+
+        <strong>Curiosidade:</strong> Usar um lapis para contornar a boca deixa seu lábio com aparência mais carnuda.
+      </p>
+      <div class="price">R$10,00</div>
+    </div>
+
+    <!-- esfoliante melão -->
+    <div class="preview" data-target="p-18">
+      <i class="fas fa-times"></i>
+
+      <img src="assets/img/produtos/esfoliante/esfoliante_melao.jpeg" alt="">
+      <h3>Esfoliante Melão</h3>
+      <p>
+        <strong>Serventia:</strong> ajudar você a ter uma pele mais jovem.<br><br>
+
+        <strong>Curiosidade:</strong> A esfoliação remove células mortas e estimula a renovação celular, ações que melhoram a textura. O cuidado ainda colabora para reduzir o excesso de sebo acumulado nos poros, prevenindo a acne.
+      </p>
+      <div class="price">R$6,99</div>
+    </div>
+
+    <!-- esfoliante abacate -->
+    <div class="preview" data-target="p-19">
+      <i class="fas fa-times"></i>
+
+      <img src="assets/img/produtos/esfoliante/esfoliante_abacate.jpeg" alt="">
+      <h3>Esfoliante Abacate</h3>
+      <p>
+        <strong>Serventia:</strong> ajudar você a ter uma pele mais jovem.<br><br>
+
+        <strong>Curiosidade:</strong> A esfoliação remove células mortas e estimula a renovação celular, ações que melhoram a textura. O cuidado ainda colabora para reduzir o excesso de sebo acumulado nos poros, prevenindo a acne.
+      </p>
+      <div class="price">R$6,99</div>
+    </div>
+
+    <!-- hidratante Nivea -->
+    <div class="preview" data-target="p-20">
+      <i class="fas fa-times"></i>
+
+      <img src="assets/img/produtos/hidratante/hidratante_nivea.jpeg" alt="">
+      <h3>Hidratante Nivea</h3>
+      <p>
+        <strong>Serventia:</strong> no tratamento contra espinhas, manchas causadas pela acne.<br><br>
+        <strong>Curiosidade:</strong> prática leva a melhorar o aspecto da pele e diminui a aparência dos poros dilatados.
+      </p>
+      <div class="price">R$9,99</div>
+
+    </div>
+
+    <!-- pincel #1-->
+    <div class="preview" data-target="p-21">
+      <i class="fas fa-times"></i>
+      <img src="assets/img/produtos/pincel/pincel1.jpeg" alt="">
+      <h3>Kit Pincel #1</h3>
+      <p>
+        <strong>Serventia:</strong> Esfumar e depositar sua sombra nos olhos<br><br>
+        <strong>Curiosidade:</strong> Cerdas macias e volumosa, sem efeito borracha, toque leve e aveludada.
+      </p>
+      <div class="price">R$9,99</div>
+    </div>
+
+    <!-- pincel #2-->
+    <div class="preview" data-target="p-22">
+      <i class="fas fa-times"></i>
+      <img src="assets/img/produtos/pincel/pincel2.jpeg" alt="">
+      <h3>Kit Pincel #2</h3>
+      <p>
+        <strong>Serventia:</strong> Esfumar e depositar sua sombra nos olhos<br><br>
+        <strong>Curiosidade:</strong> Cerdas macias e volumosa, sem efeito borracha, toque leve e aveludada.
+      </p>
+      <div class="price">R$9,99</div>
+    </div>
+
+    <!-- gel tint -->
+    <div class="preview" data-target="p-23">
+      <i class="fas fa-times"></i>
+      <img src="assets/img/produtos/gel_tint/gel_tint.jpeg" alt="">
+      <h3>Gel tint</h3>
+      <p>
+        <strong>Serventia:</strong> Textura leve, efeito natural com hidratação labial<br><br>
+        <strong>Curiosidade:</strong> Gostinho agradável com odor frutado.
+      </p>
+      <div class="price">R$9,99</div>
+    </div>
+
+    <!-- gel tint -->
+    <div class="preview" data-target="p-24">
+      <i class="fas fa-times"></i>
+      <img src="assets/img/produtos/kit_esponja/kit_esponja.jpeg" alt="">
+      <h3>Kit Esponja</h3>
+      <p>
+        <strong>Serventia:</strong> Auxiliar na aplicação da base e outros, Bom acabamento e depósito de base.<br><br>
+        <strong>Curiosidade:</strong> O produto vem com uma esponja para ajudar na limpeza.
+      </p>
+      <div class="price">R$9,99</div>
+    </div>
+
+  </div>
+
+  <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
